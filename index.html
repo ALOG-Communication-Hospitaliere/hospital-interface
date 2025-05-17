@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Patient Data Form</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>Patient Data Request</h2>
+    <label for="num">Numéro de sécurité :</label>
+    <input type="text" id="num" name="num" placeholder="Entrez le numéro" />
+
+    <label for="type">Type :</label>
+    <select id="type" name="type">
+      <option value="Radio">Radio</option>
+      <option value="Analyse">Analyse</option>
+      <option value="Irm">Irm</option>
+    </select>
+
+    <button id="sendBtn">Envoyer</button>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
